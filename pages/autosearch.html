@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>13. Python History &#8212; Python for Machine Learning</title>
+    <title>Optuna &#8212; Python for Machine Learning</title>
     
   <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -43,6 +43,7 @@
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
@@ -55,8 +56,8 @@
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="14. Python History" href="ensembling.html" />
-    <link rel="prev" title="12. Python History" href="randomserach.html" />
+    <link rel="next" title="Python History" href="ensembling.html" />
+    <link rel="prev" title="Random Search" href="randomsearch.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -89,7 +90,7 @@
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../about.html">
-   Welcome to Python for Data Science
+   Welcome to Python for Machine Learning
   </a>
  </li>
 </ul>
@@ -99,108 +100,177 @@
  </span>
 </p>
 <ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="supervised_learning.html">
-   1. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="section_1.html">
+   Introduction
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="unsupervised_learning.html">
-   2. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="regression.html">
-   3. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="classification.html">
-   4. Python History
-  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="supervised_learning.html">
+     Supervised Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="unsupervised_learning.html">
+     Unsupervised Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="optimization.html">
+     Optimization
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Model Evaluation
+  Supervised Learning
  </span>
 </p>
 <ul class="current nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="metrics.html">
-   5. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="section_2.html">
+   Introduction
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="regression.html">
+     regression
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="classification.html">
+     classification
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="section_2.html">
+   Regression Models
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="regression.html">
+     regression
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="classification.html">
+     classification
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="optimization.html">
-   6. Python History
+  <a class="reference internal" href="section_3.html">
+   Classification Models
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="overfitting.html">
-   7. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="section_4.html">
+   Model Evaluation
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="metrics.html">
+     Metrics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="overfitting.html">
+     Overfitting
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="validation.html">
+     Validation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crossval.html">
+     Cross Validation
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="validation.html">
-   8. Python History
-  </a>
- </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="tuning.html">
-   9. Python History
+   Hyperparameter Tuning
   </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="gridsearch.html">
+     Grid Search
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="randomsearch.html">
+     Random Search
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Automatic Tuning
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="crossval.html">
-   10. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="ensembling.html">
+   Ensemble Models
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="gridsearch.html">
-   11. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="randomserach.html">
-   12. Python History
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   13. Python History
-  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="xgboost.html">
+     XGBoost
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="lightgbm.html">
+     LightGBM
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="blending.html">
+     Blending
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="stacking.html">
+     Stacking
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Advanced Modeling Techniques
+  Appendix
  </span>
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="ensembling.html">
-   14. Python History
+  <a class="reference internal" href="glossary.html">
+   Glossary
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="stacking.html">
-   15. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="blending.html">
-   16. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="xgboost.html">
-   17. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="lightgbm.html">
-   18. Python History
+  <a class="reference internal" href="../author.html">
+   About the Author
   </a>
  </li>
 </ul>
@@ -301,6 +371,76 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-optuna">
+   Introduction to Optuna
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tuning-a-logistic-regression-model">
+   Tuning a Logistic Regression Model
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#viewing-results">
+     Viewing Results
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#results-dataframe">
+     Results DataFrame
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tuning-a-decision-tree-model">
+   Tuning a Decision Tree Model
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Viewing Results
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Results DataFrame
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#study-visualizations">
+   Study Visualizations
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plot-optimization-history">
+     Plot Optimization History
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plot-slice">
+     Plot Slice
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#additional-resources">
+   Additional Resources
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -308,8 +448,433 @@
         
               <div>
                 
-  <div class="section" id="python-history">
-<h1><span class="section-number">13. </span>Python History<a class="headerlink" href="#python-history" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="optuna">
+<h1>Optuna<a class="headerlink" href="#optuna" title="Permalink to this headline">¶</a></h1>
+<p>Optuna is an automatic hyperparameter tuning framework. Some of the basic functionality of Optuna will be demonstrated in this page.</p>
+<div class="seealso admonition">
+<p class="admonition-title">Demonstration</p>
+<p>The following Kaggle notebook demonstrates the concepts explained in this page: <a class="reference external" href="https://www.kaggle.com/drbeane/optuna-tutorial-titanic">🎓 Optuna Demonstration</a></p>
+</div>
+<div class="section" id="introduction-to-optuna">
+<h2>Introduction to Optuna<a class="headerlink" href="#introduction-to-optuna" title="Permalink to this headline">¶</a></h2>
+<p><strong>Importing Optuna</strong></p>
+<p>Optuna is not included in the Anaconda distrubution. You can install Optuna with the conda package manager by running the following command in Anaconda Prompt:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge optuna
+</pre></div>
+</div>
+<p><strong>Installing Optuna</strong></p>
+<p>After installing Optuna, we can import the library into our Python session.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">optuna</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>To use Optuna to perform hyperparameter tuning for a specific model type, a study must be created. A study in <strong>Optuna</strong> refers to a single optimization problem. Each Optuna study consists of multiple trials. A <strong>trial</strong> in optuna is a single execution of a function that returns a value meanted to be minimized or maximized. In the context of hyperparameter tuning, a trail consists of selecting hyperparameter values for a model and then scoring the resulting model in some way, typically by using cross-validation.</p>
+<p>An outline of the steps involved in creating a study is as follows:</p>
+<ol class="simple">
+<li><p>Create an <strong>objective function</strong> representing a trail.
+a. Within the objective function, new hyperparameter values should be selected.
+b. A model object should be created using the new hyperparameter values.
+c. The model should be scored using cross-validation.
+d. The cross-validation score should be returned by the objective function.</p></li>
+<li><p>Create a <code class="docutils literal notranslate"><span class="pre">study</span></code> object, indiciate if the objective should be minimized or maximized.</p></li>
+<li><p>Pass the objective function to the <code class="docutils literal notranslate"><span class="pre">study</span></code> object’s <code class="docutils literal notranslate"><span class="pre">optimize()</span></code> method, specifying the number of trials to perform. This will start the study.</p></li>
+</ol>
+<p>The objective function should accept a single <code class="docutils literal notranslate"><span class="pre">trial</span></code> object as a parameter. Arguments for this parameter are supplied to the objective function when the <code class="docutils literal notranslate"><span class="pre">optimize()</span></code> function is called.</p>
+<p>The hyperparameter values are generated by using <code class="docutils literal notranslate"><span class="pre">suggest_float()</span></code>, <code class="docutils literal notranslate"><span class="pre">suggest_int()</span></code>, and <code class="docutils literal notranslate"><span class="pre">suggest_categorical()</span></code> methods of the <code class="docutils literal notranslate"><span class="pre">trial</span></code> object. The use of these methods will be demonstrated below. The paramaters passed to these methods will define the parameter <strong>search space</strong> for the study. Optuna makes use of <a class="reference external" href="https://en.wikipedia.org/wiki/Hyperparameter_optimization#Bayesian_optimization">Bayesian optimization</a> to strategically explore the search space for an optimal set of parameter values. It does this by employing an explore/exploit strategy in which new values are selected at random for each new trial, but values that have previously shown good performance will be selected more frequently.</p>
+</div>
+<div class="section" id="tuning-a-logistic-regression-model">
+<h2>Tuning a Logistic Regression Model<a class="headerlink" href="#tuning-a-logistic-regression-model" title="Permalink to this headline">¶</a></h2>
+<p>The cell below demonstrates the use of Optuna in performing hyperparameter tuning for a logistic regression classifier. The specific hyperparameters being tuned will be <code class="docutils literal notranslate"><span class="pre">li_ratio</span></code> and <code class="docutils literal notranslate"><span class="pre">C</span></code>. Notice that values for these hyperparameters are generated using the <code class="docutils literal notranslate"><span class="pre">suggest_float()</span></code> method of the <code class="docutils literal notranslate"><span class="pre">trial</span></code> object. We pass 4 arguments to <code class="docutils literal notranslate"><span class="pre">suggest_float()</span></code> in each call.</p>
+<ul class="simple">
+<li><p>The 1st argument is a string that provides a name for the hyperparameter being tuned. This can be set to anything you like and is used only for reporting purposes.</p></li>
+<li><p>The 2nd argument provides the lower bound for values to be considered for the hyperparameter.</p></li>
+<li><p>The 3rd argument provides the upper bound for values to be considered for the hyperparameter.</p></li>
+<li><p>The 4th argument set the <code class="docutils literal notranslate"><span class="pre">log</span></code> parameter. If set to <code class="docutils literal notranslate"><span class="pre">False</span></code>, then values for the hyperparameter will be sampled according to a uniform distribution. If set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, then values will be selected according to a uniform distribution on the log-space. The default value for <code class="docutils literal notranslate"><span class="pre">'log</span></code> is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">logreg_objective</span><span class="p">(</span><span class="n">trial</span><span class="p">):</span>
+    
+    <span class="n">r</span> <span class="o">=</span> <span class="n">trial</span><span class="o">.</span><span class="n">suggest_float</span><span class="p">(</span><span class="s1">&#39;l1_ratio&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">log</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">trial</span><span class="o">.</span><span class="n">suggest_float</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="mf">1e-10</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="n">log</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+     
+    <span class="n">clf</span> <span class="o">=</span>  <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">max_iter</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span> <span class="n">solver</span><span class="o">=</span><span class="s1">&#39;saga&#39;</span><span class="p">,</span> <span class="n">penalty</span><span class="o">=</span><span class="s1">&#39;elasticnet&#39;</span><span class="p">,</span> <span class="n">l1_ratio</span><span class="o">=</span><span class="n">r</span><span class="p">,</span> <span class="n">C</span><span class="o">=</span><span class="n">c</span><span class="p">)</span>
+    <span class="n">scores</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">scores</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    
+<span class="n">logreg_study</span> <span class="o">=</span> <span class="n">optuna</span><span class="o">.</span><span class="n">create_study</span><span class="p">(</span><span class="n">direction</span><span class="o">=</span><span class="s1">&#39;maximize&#39;</span><span class="p">)</span>
+<span class="n">logreg_study</span><span class="o">.</span><span class="n">optimize</span><span class="p">(</span><span class="n">logreg_objective</span><span class="p">,</span> <span class="n">n_trials</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span><span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,595]</span> A new study created in memory with name: no-name-5fd28f88-c24b-4f8e-8dcb-072a6a1cbc0b
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,616]</span> Trial 0 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.5439615394307834, &#39;C&#39;: 2.1771939082764177e-08}. Best is trial 0 with value: 0.5.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,635]</span> Trial 1 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.488968701460022, &#39;C&#39;: 0.00017425521598500197}. Best is trial 0 with value: 0.5.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,655]</span> Trial 2 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.19864784316264938, &#39;C&#39;: 6.789509511446001e-06}. Best is trial 0 with value: 0.5.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,672]</span> Trial 3 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.3593833354400813, &#39;C&#39;: 1.678009740557353e-08}. Best is trial 0 with value: 0.5.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,690]</span> Trial 4 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.5081372937816908, &#39;C&#39;: 2.430280354084403e-06}. Best is trial 0 with value: 0.5.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,832]</span> Trial 5 finished with value: 0.8761534073407342 and parameters: {&#39;l1_ratio&#39;: 0.8627348371331411, &#39;C&#39;: 0.005179775796040812}. Best is trial 5 with value: 0.8761534073407342.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:29,852]</span> Trial 6 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.3694908032800195, &#39;C&#39;: 6.16936130007863e-07}. Best is trial 5 with value: 0.8761534073407342.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:30,921]</span> Trial 7 finished with value: 0.9376967516751675 and parameters: {&#39;l1_ratio&#39;: 0.7556557704020802, &#39;C&#39;: 1.0396990101137766}. Best is trial 7 with value: 0.9376967516751675.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:30,942]</span> Trial 8 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.47815517761759985, &#39;C&#39;: 4.976095390745594e-05}. Best is trial 7 with value: 0.9376967516751675.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:30,960]</span> Trial 9 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.7931672294743582, &#39;C&#39;: 1.4328945047053657e-05}. Best is trial 7 with value: 0.9376967516751675.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:31,121]</span> Trial 10 finished with value: 0.9374767256725672 and parameters: {&#39;l1_ratio&#39;: 0.7342567830598226, &#39;C&#39;: 52.032662543117446}. Best is trial 7 with value: 0.9376967516751675.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:31,277]</span> Trial 11 finished with value: 0.9374767256725672 and parameters: {&#39;l1_ratio&#39;: 0.7282738743236373, &#39;C&#39;: 114.85628214559995}. Best is trial 7 with value: 0.9376967516751675.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:32,023]</span> Trial 12 finished with value: 0.9375567296729674 and parameters: {&#39;l1_ratio&#39;: 0.9965581503117389, &#39;C&#39;: 7.9523414174736935}. Best is trial 7 with value: 0.9376967516751675.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:32,146]</span> Trial 13 finished with value: 0.938216807680768 and parameters: {&#39;l1_ratio&#39;: 0.9918136351747794, &#39;C&#39;: 0.15291280426403014}. Best is trial 13 with value: 0.938216807680768.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:32,235]</span> Trial 14 finished with value: 0.9363367776777677 and parameters: {&#39;l1_ratio&#39;: 0.965496320102396, &#39;C&#39;: 0.039787714826508766}. Best is trial 13 with value: 0.938216807680768.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:32,782]</span> Trial 15 finished with value: 0.9378167476747674 and parameters: {&#39;l1_ratio&#39;: 0.6789615206120907, &#39;C&#39;: 0.43150249665619084}. Best is trial 13 with value: 0.938216807680768.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:32,914]</span> Trial 16 finished with value: 0.9387368076807681 and parameters: {&#39;l1_ratio&#39;: 0.015748667866465504, &#39;C&#39;: 0.04663515419102673}. Best is trial 16 with value: 0.9387368076807681.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:33,038]</span> Trial 17 finished with value: 0.9390968316831682 and parameters: {&#39;l1_ratio&#39;: 0.023064201940723835, &#39;C&#39;: 0.023940006122544873}. Best is trial 17 with value: 0.9390968316831682.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:33,063]</span> Trial 18 finished with value: 0.5 and parameters: {&#39;l1_ratio&#39;: 0.010855718933771253, &#39;C&#39;: 1.9278598847154537e-10}. Best is trial 17 with value: 0.9390968316831682.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:33,150]</span> Trial 19 finished with value: 0.9365167496749676 and parameters: {&#39;l1_ratio&#39;: 0.0044156336538472545, &#39;C&#39;: 0.0030437943584289925}. Best is trial 17 with value: 0.9390968316831682.
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="viewing-results">
+<h3>Viewing Results<a class="headerlink" href="#viewing-results" title="Permalink to this headline">¶</a></h3>
+<p>Each <code class="docutils literal notranslate"><span class="pre">study</span></code> object contains <code class="docutils literal notranslate"><span class="pre">best_value</span></code> and <code class="docutils literal notranslate"><span class="pre">best_params</span></code> attributes that record the score and hyperparameter values for the best trial found within the study.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">logreg_study</span><span class="o">.</span><span class="n">best_value</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">logreg_study</span><span class="o">.</span><span class="n">best_params</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.946138397839784
+{&#39;l1_ratio&#39;: 0.20439010954745684, &#39;C&#39;: 0.05549100030357322}
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="results-dataframe">
+<h3>Results DataFrame<a class="headerlink" href="#results-dataframe" title="Permalink to this headline">¶</a></h3>
+<p>A <code class="docutils literal notranslate"><span class="pre">study</span></code> object also has a <code class="docutils literal notranslate"><span class="pre">trails_dataframe()</span></code> method that returns a Pandas DataFrame with summary information about for all of the trials. This can be saved to a csv file to store the results of the study. It could be useful to identify and train multiple high-performing models from the study to use in an ensemble model.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">logreg_df</span> <span class="o">=</span> <span class="n">logreg_study</span><span class="o">.</span><span class="n">trials_dataframe</span><span class="p">()</span>
+<span class="n">logreg_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>number</th>
+      <th>value</th>
+      <th>datetime_start</th>
+      <th>datetime_complete</th>
+      <th>duration</th>
+      <th>params_C</th>
+      <th>params_l1_ratio</th>
+      <th>state</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0.864617</td>
+      <td>2021-11-20 11:33:26.250878</td>
+      <td>2021-11-20 11:33:26.286782</td>
+      <td>0 days 00:00:00.035904</td>
+      <td>0.002365</td>
+      <td>0.434270</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>0.946138</td>
+      <td>2021-11-20 11:33:26.287780</td>
+      <td>2021-11-20 11:33:26.324680</td>
+      <td>0 days 00:00:00.036900</td>
+      <td>0.055491</td>
+      <td>0.204390</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>0.929858</td>
+      <td>2021-11-20 11:33:26.325677</td>
+      <td>2021-11-20 11:33:26.347619</td>
+      <td>0 days 00:00:00.021942</td>
+      <td>0.002320</td>
+      <td>0.088279</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>0.945438</td>
+      <td>2021-11-20 11:33:26.348615</td>
+      <td>2021-11-20 11:33:26.488242</td>
+      <td>0 days 00:00:00.139627</td>
+      <td>1.485138</td>
+      <td>0.237773</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>0.944938</td>
+      <td>2021-11-20 11:33:26.489240</td>
+      <td>2021-11-20 11:33:26.524147</td>
+      <td>0 days 00:00:00.034907</td>
+      <td>0.027652</td>
+      <td>0.638375</td>
+      <td>COMPLETE</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="section" id="tuning-a-decision-tree-model">
+<h2>Tuning a Decision Tree Model<a class="headerlink" href="#tuning-a-decision-tree-model" title="Permalink to this headline">¶</a></h2>
+<p>The cell below demonstrates the use of Optuna in performing hyperparameter tuning for a decision tree classifier. The specific hyperparameters being tuned will be <code class="docutils literal notranslate"><span class="pre">max_depth</span></code> and <code class="docutils literal notranslate"><span class="pre">min_samples_leaf</span></code>. These hyperparameter both expect integer values, which will be generated using the <code class="docutils literal notranslate"><span class="pre">suggest_int()</span></code> method of the <code class="docutils literal notranslate"><span class="pre">trial</span></code> object. The arguments passed to <code class="docutils literal notranslate"><span class="pre">suggest_int()</span></code> are similar to those for <code class="docutils literal notranslate"><span class="pre">suggest_float()</span></code>, but notice that we do not provide a value for the <code class="docutils literal notranslate"><span class="pre">log</span></code> parameter. This parameter is not used for <code class="docutils literal notranslate"><span class="pre">suggest_int()</span></code>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">dtree_objective</span><span class="p">(</span><span class="n">trial</span><span class="p">):</span>
+    
+    <span class="n">md</span> <span class="o">=</span> <span class="n">trial</span><span class="o">.</span><span class="n">suggest_int</span><span class="p">(</span><span class="s1">&#39;max_depth&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+    <span class="n">mi</span> <span class="o">=</span> <span class="n">trial</span><span class="o">.</span><span class="n">suggest_int</span><span class="p">(</span><span class="s1">&#39;min_inst&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">32</span><span class="p">)</span>
+    
+    <span class="n">clf</span> <span class="o">=</span>  <span class="n">DecisionTreeClassifier</span><span class="p">(</span><span class="n">max_depth</span><span class="o">=</span><span class="n">md</span><span class="p">,</span> <span class="n">min_samples_leaf</span><span class="o">=</span><span class="n">mi</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="p">)</span>
+    <span class="n">scores</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;roc_auc&#39;</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">scores</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    
+<span class="n">dtree_study</span> <span class="o">=</span> <span class="n">optuna</span><span class="o">.</span><span class="n">create_study</span><span class="p">(</span><span class="n">direction</span><span class="o">=</span><span class="s1">&#39;maximize&#39;</span><span class="p">)</span>
+<span class="n">dtree_study</span><span class="o">.</span><span class="n">optimize</span><span class="p">(</span><span class="n">dtree_objective</span><span class="p">,</span> <span class="n">n_trials</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span><span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,194]</span> A new study created in memory with name: no-name-632bcc8d-e771-436f-9d8a-be022958be71
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,243]</span> Trial 0 finished with value: 0.8688124402440245 and parameters: {&#39;max_depth&#39;: 6, &#39;min_inst&#39;: 22}. Best is trial 0 with value: 0.8688124402440245.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,300]</span> Trial 1 finished with value: 0.8614617341734174 and parameters: {&#39;max_depth&#39;: 39, &#39;min_inst&#39;: 8}. Best is trial 0 with value: 0.8688124402440245.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,360]</span> Trial 2 finished with value: 0.8246203520352035 and parameters: {&#39;max_depth&#39;: 58, &#39;min_inst&#39;: 4}. Best is trial 0 with value: 0.8688124402440245.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,405]</span> Trial 3 finished with value: 0.8477817161716171 and parameters: {&#39;max_depth&#39;: 18, &#39;min_inst&#39;: 30}. Best is trial 0 with value: 0.8688124402440245.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,456]</span> Trial 4 finished with value: 0.8710627762776276 and parameters: {&#39;max_depth&#39;: 21, &#39;min_inst&#39;: 18}. Best is trial 4 with value: 0.8710627762776276.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,505]</span> Trial 5 finished with value: 0.8736428712871286 and parameters: {&#39;max_depth&#39;: 6, &#39;min_inst&#39;: 15}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,550]</span> Trial 6 finished with value: 0.8460919591959197 and parameters: {&#39;max_depth&#39;: 14, &#39;min_inst&#39;: 31}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,600]</span> Trial 7 finished with value: 0.8683924272427241 and parameters: {&#39;max_depth&#39;: 8, &#39;min_inst&#39;: 20}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,664]</span> Trial 8 finished with value: 0.8112794579457946 and parameters: {&#39;max_depth&#39;: 13, &#39;min_inst&#39;: 2}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,714]</span> Trial 9 finished with value: 0.8710627762776276 and parameters: {&#39;max_depth&#39;: 36, &#39;min_inst&#39;: 18}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,774]</span> Trial 10 finished with value: 0.8656518551855186 and parameters: {&#39;max_depth&#39;: 52, &#39;min_inst&#39;: 11}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,833]</span> Trial 11 finished with value: 0.8715330193019302 and parameters: {&#39;max_depth&#39;: 24, &#39;min_inst&#39;: 13}. Best is trial 5 with value: 0.8736428712871286.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,893]</span> Trial 12 finished with value: 0.8738530263026302 and parameters: {&#39;max_depth&#39;: 25, &#39;min_inst&#39;: 12}. Best is trial 12 with value: 0.8738530263026302.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,930]</span> Trial 13 finished with value: 0.7904284678467848 and parameters: {&#39;max_depth&#39;: 2, &#39;min_inst&#39;: 25}. Best is trial 12 with value: 0.8738530263026302.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:21,989]</span> Trial 14 finished with value: 0.8715330193019302 and parameters: {&#39;max_depth&#39;: 29, &#39;min_inst&#39;: 13}. Best is trial 12 with value: 0.8738530263026302.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:22,052]</span> Trial 15 finished with value: 0.856791488148815 and parameters: {&#39;max_depth&#39;: 45, &#39;min_inst&#39;: 7}. Best is trial 12 with value: 0.8738530263026302.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:22,110]</span> Trial 16 finished with value: 0.8778929582958297 and parameters: {&#39;max_depth&#39;: 30, &#39;min_inst&#39;: 15}. Best is trial 16 with value: 0.8778929582958297.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:22,171]</span> Trial 17 finished with value: 0.863722182218222 and parameters: {&#39;max_depth&#39;: 29, &#39;min_inst&#39;: 9}. Best is trial 16 with value: 0.8778929582958297.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:22,224]</span> Trial 18 finished with value: 0.8651120332033203 and parameters: {&#39;max_depth&#39;: 45, &#39;min_inst&#39;: 25}. Best is trial 16 with value: 0.8778929582958297.
+<span class=" -Color -Color-Green">[I 2021-11-20 12:02:22,282]</span> Trial 19 finished with value: 0.8778929582958297 and parameters: {&#39;max_depth&#39;: 31, &#39;min_inst&#39;: 15}. Best is trial 16 with value: 0.8778929582958297.
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>Viewing Results<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>The cell below prints the <code class="docutils literal notranslate"><span class="pre">best_value</span></code> and <code class="docutils literal notranslate"><span class="pre">best_params</span></code> attributes for the decision tree study.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">dtree_study</span><span class="o">.</span><span class="n">best_value</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dtree_study</span><span class="o">.</span><span class="n">best_params</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.8778929582958297
+{&#39;max_depth&#39;: 30, &#39;min_inst&#39;: 15}
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>Results DataFrame<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>In the cell below, the head of the results DataFrame is displayed for the decision tree study.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dtree_df</span> <span class="o">=</span> <span class="n">dtree_study</span><span class="o">.</span><span class="n">trials_dataframe</span><span class="p">()</span>
+<span class="n">dtree_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>number</th>
+      <th>value</th>
+      <th>datetime_start</th>
+      <th>datetime_complete</th>
+      <th>duration</th>
+      <th>params_max_depth</th>
+      <th>params_min_inst</th>
+      <th>state</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0.868812</td>
+      <td>2021-11-20 12:02:21.196195</td>
+      <td>2021-11-20 12:02:21.243069</td>
+      <td>0 days 00:00:00.046874</td>
+      <td>6</td>
+      <td>22</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>0.861462</td>
+      <td>2021-11-20 12:02:21.244066</td>
+      <td>2021-11-20 12:02:21.300913</td>
+      <td>0 days 00:00:00.056847</td>
+      <td>39</td>
+      <td>8</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>0.824620</td>
+      <td>2021-11-20 12:02:21.301911</td>
+      <td>2021-11-20 12:02:21.360754</td>
+      <td>0 days 00:00:00.058843</td>
+      <td>58</td>
+      <td>4</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>0.847782</td>
+      <td>2021-11-20 12:02:21.361751</td>
+      <td>2021-11-20 12:02:21.405634</td>
+      <td>0 days 00:00:00.043883</td>
+      <td>18</td>
+      <td>30</td>
+      <td>COMPLETE</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>0.871063</td>
+      <td>2021-11-20 12:02:21.406631</td>
+      <td>2021-11-20 12:02:21.456498</td>
+      <td>0 days 00:00:00.049867</td>
+      <td>21</td>
+      <td>18</td>
+      <td>COMPLETE</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="section" id="study-visualizations">
+<h2>Study Visualizations<a class="headerlink" href="#study-visualizations" title="Permalink to this headline">¶</a></h2>
+<p>Optuna provides several functions for creating plots useful for visualizing information relating to a study. Two of these functions, <code class="docutils literal notranslate"><span class="pre">plot_optimization_history()</span></code> and <code class="docutils literal notranslate"><span class="pre">plot_slice()</span></code>, will be demonstrated in this page. Please refer to <a class="reference external" href="https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/005_visualization.html#sphx-glr-download-tutorial-10-key-features-005-visualization-py">Optuna Visualizations</a> for information on these and other available visualizations.</p>
+<p>The cell below imports the two visualization functions used in this page.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">optuna.visualization</span> <span class="kn">import</span> <span class="n">plot_optimization_history</span><span class="p">,</span> <span class="n">plot_slice</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="plot-optimization-history">
+<h3>Plot Optimization History<a class="headerlink" href="#plot-optimization-history" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">plot_optimization_history()</span></code> function displays scatter plot showing the results of each trial of a study in order. The plot also includes a line plot showing the best score that has been obtained as the study progresses. This plot is useful for helping you to determine if the study was still making progress when it completed the specified number of trials.</p>
+<div class="cell tag_remove-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plot_optimization_history</span><span class="p">(</span><span class="n">dtree_study</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="../_images/autosearch_23_0.png" src="../_images/autosearch_23_0.png" />
+</div>
+</div>
+</div>
+<div class="section" id="plot-slice">
+<h3>Plot Slice<a class="headerlink" href="#plot-slice" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">plot_slice()</span></code> function displays a grid of scatter plots with one plot for each parameter being tuned. Each plot will contain one dot for each trial, with the dot indicating the score for the trial and relevant parameter value used in that trial. These plots can be used to graphically illustrate which values were performing well for each parameter, and can help you to determine if the search space for your study should be expanded or adjusted.</p>
+<div class="cell tag_remove-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">plot_slice</span><span class="p">(</span><span class="n">dtree_study</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<img alt="../_images/autosearch_26_0.png" src="../_images/autosearch_26_0.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="additional-resources">
+<h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Permalink to this headline">¶</a></h2>
+<p>The following resources contain additional information about Optuna.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://optuna.org/">Optuna.org</a></p></li>
+<li><p><a class="reference external" href="https://optuna.readthedocs.io/en/stable/">Optuna Documentation</a></p></li>
+<li><p><a class="reference external" href="https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/005_visualization.html#sphx-glr-download-tutorial-10-key-features-005-visualization-py">Optuna Visualizations</a></p></li>
+<li><p><a class="reference external" href="https://optuna.readthedocs.io/en/latest/faq.html">Optuna FAQ</a></p></li>
+</ul>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -340,8 +905,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="randomserach.html" title="previous page"><span class="section-number">12. </span>Python History</a>
-    <a class='right-next' id="next-link" href="ensembling.html" title="next page"><span class="section-number">14. </span>Python History</a>
+    <a class='left-prev' id="prev-link" href="randomsearch.html" title="previous page">Random Search</a>
+    <a class='right-next' id="next-link" href="ensembling.html" title="next page">Python History</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

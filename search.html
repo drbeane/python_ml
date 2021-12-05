@@ -44,6 +44,7 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
@@ -93,7 +94,7 @@
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="about.html">
-   Welcome to Python for Data Science
+   Welcome to Python for Machine Learning
   </a>
  </li>
 </ul>
@@ -103,108 +104,177 @@
  </span>
 </p>
 <ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/supervised_learning.html">
-   1. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="pages/section_1.html">
+   Introduction
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/unsupervised_learning.html">
-   2. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/regression.html">
-   3. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/classification.html">
-   4. Python History
-  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/supervised_learning.html">
+     Supervised Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/unsupervised_learning.html">
+     Unsupervised Learning
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/optimization.html">
+     Optimization
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Model Evaluation
+  Supervised Learning
  </span>
 </p>
 <ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/metrics.html">
-   5. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="pages/section_2.html">
+   Introduction
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/regression.html">
+     regression
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/classification.html">
+     classification
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="pages/section_2.html">
+   Regression Models
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/regression.html">
+     regression
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/classification.html">
+     classification
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="pages/optimization.html">
-   6. Python History
+  <a class="reference internal" href="pages/section_3.html">
+   Classification Models
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/overfitting.html">
-   7. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="pages/section_4.html">
+   Model Evaluation
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/metrics.html">
+     Metrics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/overfitting.html">
+     Overfitting
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/validation.html">
+     Validation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/crossval.html">
+     Cross Validation
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/validation.html">
-   8. Python History
-  </a>
- </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 collapsible-parent">
   <a class="reference internal" href="pages/tuning.html">
-   9. Python History
+   Hyperparameter Tuning
   </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/gridsearch.html">
+     Grid Search
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/randomsearch.html">
+     Random Search
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/autosearch.html">
+     Automatic Tuning
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/crossval.html">
-   10. Python History
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="pages/ensembling.html">
+   Ensemble Models
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/gridsearch.html">
-   11. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/randomserach.html">
-   12. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/autosearch.html">
-   13. Python History
-  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/xgboost.html">
+     XGBoost
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/lightgbm.html">
+     LightGBM
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/blending.html">
+     Blending
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pages/stacking.html">
+     Stacking
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
  </li>
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Advanced Modeling Techniques
+  Appendix
  </span>
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="pages/ensembling.html">
-   14. Python History
+  <a class="reference internal" href="pages/glossary.html">
+   Glossary
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="pages/stacking.html">
-   15. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/blending.html">
-   16. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/xgboost.html">
-   17. Python History
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pages/lightgbm.html">
-   18. Python History
+  <a class="reference internal" href="author.html">
+   About the Author
   </a>
  </li>
 </ul>
